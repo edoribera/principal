@@ -1,18 +1,20 @@
 {
-  "name": "ProcesoAltas1x1",
-  "description": "Proceso de carga de archivos de altas",
-  "main": "Principal.xaml",
+  "name": "ObtencionDatosSonar",
+  "description": "Obtiene datos de SONAR mediante la API, luego los registra en la base de datos",
+  "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Database.Activities": "[1.7.0]",
     "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.1]",
-    "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.4]"
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]",
+    "UiPath.WebAPI.Activities": "[1.12.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.1.0",
-  "projectVersion": "1.0.42",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -27,8 +29,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -46,8 +47,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Principal.xaml",
-      "uniqueId": "bf2d8827-2415-4ca5-b7f8-a4bf34d6ff39",
+      "filePath": "Main.xaml",
+      "uniqueId": "860f83e4-387b-427d-b413-e86a16608e92",
       "input": [],
       "output": []
     }

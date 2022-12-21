@@ -1,18 +1,18 @@
 {
-  "name": "ProcesoAltas1x1",
-  "description": "Proceso de carga de archivos de altas",
-  "main": "Principal.xaml",
+  "name": "Reporte Procesados",
+  "description": "Reporte de colaboradores procesados de ECR",
+  "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.1]",
-    "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.4]"
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.1.0",
-  "projectVersion": "1.0.42",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,8 +46,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Principal.xaml",
-      "uniqueId": "bf2d8827-2415-4ca5-b7f8-a4bf34d6ff39",
+      "filePath": "Main.xaml",
+      "uniqueId": "38885615-808e-42d1-b9e2-880f2b2244ba",
       "input": [],
       "output": []
     }
@@ -55,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
